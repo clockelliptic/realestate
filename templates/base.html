@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'css/all.css' %}">
     <!-- Bootstrap -->
@@ -15,18 +15,18 @@
     <!-- Lightbox -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
 
-    <title>Real Estate</title>
+    <title>Real Estate {% block title %}{% endblock %}</title>
 </head>
 <body>
-    
+
     <!-- Top Bar -->
     {% include 'partials/_topbar.html' %}
-    
+
     <!-- Nav Bar -->
     {% include 'partials/_navbar.html' %}
-    
+
     {% block content %} {% endblock %}
-    
+
     <!-- Footer -->
     {% include 'partials/_footer.html' %}
 
