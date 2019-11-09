@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -144,3 +145,10 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
     messages.SUCCESS: 'success'
 }
+
+# Email Config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = '' # FILL ME IN
+EMAIL_HOST_PASSWORD = '' # FILL ME IN
+EMAIL_USE_TLS=True
