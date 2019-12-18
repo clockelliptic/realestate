@@ -1,0 +1,16 @@
+{
+    "title":"Real Estate Website - Django",
+    "description":"Real Estate Company website mockup, built with Django for Python",
+    "tags":{
+       "languages":[
+          "python", "jinja", "html", "css", "javascript"
+       ],
+       "tooling":[
+          "django", "jinja", "postgres"
+       ],
+       "keywords":[
+          "MVC"
+       ]
+    },
+    "n_images":2
+ }
